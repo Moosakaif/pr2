@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+    <div class="container"></div>
+        <header class="header">
+        <nav>
+            <div class="left-section">
+                <img src="images/specta hub.png" width="120" height="100">
+            </div>
+            <div class="search">
+                <div class="icon"></div>
+                <div class="input">
+                    <input type="text" placeholder="Search" id="mysearch">
+                </div>
+                <span class="clear" onclick="document.getElementById
+                ('mysearch').value = ''"></span>
+            </div>
+            <div class="right-section">
+                <ul class="nav">
+                    <li class="nav-link"><a href="contact.html">Contact us</a></li>
+                    <li class="nav-link"><a href="services.html">Services</a></li>
+                    <li class="nav-link"><a href="about.html">About</a></li>
+                    <li class="nav-link"><a href="account.html">Account</a></li>
+                    <li class="nav-link"><a href="add.html"><span class="icon"><ion-icon name="bag-handle-outline"></ion-icon></span></a></li>
+                </ul>
+            </div>
+        </nav> 
+        </header>
+        <br>
+        <br> 
+
+        <div class="container2">
+            <div class="main-right">  	
+                <input type="checkbox" id="chk" aria-hidden="true">
+        
+                    <div class="signup">
+                        <form class="line">
+                            <label for="chk" aria-hidden="true">Sign up</label>
+                            <input type="text" name="txt" placeholder="User name" required="">
+                            <input type="email" name="email" placeholder="Email" required="">
+                            <input type="password" name="pswd" placeholder="Password" required="">
+                            <button>Sign up</button>
+                        </form>
+                    </div>
+        
+                    <div class="signin">
+                        <form class="line">
+                            <label for="chk" aria-hidden="true">Sign in</label>
+                            <input type="email" name="email" placeholder="Email" required="">
+                            <input type="password" name="pswd" placeholder="Password" required="">
+                            <button>Sign in</button>
+                        </form>
+                    </div>
+            </div>
+        </div>
+
+        
+        <footer>
+            <div class="row">
+                <div class="col">
+                  <img src="images/specta hub.png" alt="logo" height="120px" width="160px">
+                  <p> Our mission is to provide top-quality products to our customers at reasonable prices, delivered right to their doorstep.</p>
+                </div>
+                <div class="col">
+                    <h3>Offices<div class="underline"><span></span></div></h3>
+                    <p>Aptech Norht-karachi</p>
+                    <p>Main Saleem Center</p>
+                    <p>Near Anda Mor Chorangi</p>
+                    <p class="email-id">sharham098234@gmail.com<br>moosakaif567@gmail.com</p>
+                    <h4>+92-3352134494</h4>
+                    <h4>+92-3180125794</h4>
+                </div>
+                <div class="col">
+                    <h3>Links <div class="underline"><span></span></div></h3>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="about.html">About us</a></li>
+                        <li><a href="contact.html">Contact us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3>NewsLetter <div class="underline"><span></span></div></h3>
+                    <form>
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" placeholder="Enter Your Email">
+                        <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+                    </form>
+                    <div class="social-icons">
+                        <a class="icon" href="http://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                        <a class="icon" href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a class="icon" href="http://www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                        <a class="icon" href="http://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">&copy; 2023 All Right Reserved | Specta Hub</p>
+        </footer>
+
+        
+        <script>
+        const icon = document.querySelector('.icon')
+        const search = document.querySelector('.search')
+        icon.onclick = function(){
+            search.classList.toggle('active')
+        }
+        </script>  
+        <script src="https://kit.fontawesome.com/3c55e1d6d1.js"></script>    
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </div>
+</body>
+</html>

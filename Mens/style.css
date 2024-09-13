@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    height: 100vh;
+    background: url(images/glass.jpg) center no-repeat;
+    background-size: cover;
+}
+.contianer{
+    height: 100%;
+    background-size: cover;
+}
+.header{
+    height: 5rem;
+    display: flex;
+}
+nav{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    color: #fff;
+    margin: auto;
+}
+.left-section{
+    width: 5rem;
+    cursor: pointer;
+}
+.right-section{
+    display: flex;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn-link{
+    display: block;
+    width: fit-content;
+    border: 1px solid #fff;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    backdrop-filter: blur(0.5rem);
+    transition: background 0.5s;
+}
+.btn-link:hover{
+    background: #ff6600;
+}
+
+.main{
+    margin: 180px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+.font{
+    font-size: 60px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.btn{
+    display: block;
+    margin: 100px auto;
+    width: fit-content;
+    border: 1px solid #e7dcdf;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    backdrop-filter: blur(0.5rem);
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: #ff6600;
+}
+

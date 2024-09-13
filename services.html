@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style5.css">
+</head>
+<body>
+    <div class="container"></div>
+        <header class="header">
+        <nav>
+            <div class="left-section">
+                <img src="images/specta hub.png" width="120" height="100">
+            </div>
+            <div class="search">
+                <div class="icon"></div>
+                <div class="input">
+                    <input type="text" placeholder="Search" id="mysearch">
+                </div>
+                <span class="clear" onclick="document.getElementById
+                ('mysearch').value = ''"></span>
+            </div>
+            <div class="right-section">
+                <ul class="nav">
+                    <li class="nav-link"><a href="home.html">Home</a></li>
+                    <li class="nav-link"><a href="main.html">Categories</a></li>
+                    <li class="nav-link"><a href="account.html">Account</a></li>
+                    <li class="nav-link"><a href="add.html"><span class="icon"><ion-icon name="bag-handle-outline"></ion-icon></span></a></li>
+                </ul>
+            </div>
+        </nav> 
+        </header>
+
+
+        <div class="text">
+            <h1>Services</h1>
+            <h2>Return & Exchange Policy</h2>
+            <p>We ensure that customers feel confident and extremely content on making a purchase. This implies on the first purchase or while returning a pair. We offer hassle-free polices to embark on customer satisfaction and value for money.<br>
+            We safeguard your purchase with the 15 days warranty which can be availed by showing your order receipt. This warranty is implied on regular frames and stock lenses. We also offer store credit of the total Order Amount as a part of our Refund Policy.<br>
+            Even after the payment – Your money is technically at your end unless you are extremely proud and satisfied of what we have delivered. We refund the full amount (Frame, Lens and Shipping) if our eyewear has not replenished your vision demands. 
+            This refund regulation enables us to minimize customer dissatisfaction towards the product. However – conditions may apply as with mutual consent, various issues can be solved.<br></p>
+            <ul>
+                <li><b>Prescription Issue:</b> Copy of prescription issued by an optician is mandatory</li>
+                <li><b>Warranty:</b> Reported issues within 30 days of getting the eyeglasses</li>
+                <li><b>Order Delay:</b>Unusual delays in production or transit</li>
+                <li><b>Product Issue:</b>Verification of size, color and defect</li>
+                <li><b>Company’s Error:</b>Confirmation on the issue reported</li>
+                <li><b>Promotions:</b>Conditions apply on glasses purchased in promotions</li>
+            </ul>
+            <h2>Additional Information:</h2>
+            <ol>
+                <li>All lens upgrades will be charged.</li>
+                <li>A home brand frame can be replaced or exchanged with a home brand only. Same is the case with designers. If a designer is selected in place of a home brand, difference in price is applicable.</li>
+                <li>A scanned copy of the prescription should be provided to solve prescription issues in a swift manner</li>
+                <li>We do not guaranty that Out of Stock frames will be restocked. For exchanges or replacements, selecting frames from a new lot solves this issue.</li>
+            </ol>
+            <h2>Not Sure What TO Do?</h2>
+            <p>Need to ask product related questions or want to inquire about your order?</p>
+        </div>
+
+        
+        <footer>
+            <div class="row">
+                <div class="col">
+                  <img src="images/specta hub.png" alt="logo" height="120px" width="160px">
+                  <p> Our mission is to provide top-quality products to our customers at reasonable prices, delivered right to their doorstep.</p>
+                </div>
+                <div class="col">
+                    <h3>Offices<div class="underline"><span></span></div></h3>
+                    <p>Aptech Norht-karachi</p>
+                    <p>Main Saleem Center</p>
+                    <p>Near Anda Mor Chorangi</p>
+                    <p class="email-id">sharham098234@gmail.com<br>moosakaif567@gmail.com</p>
+                    <h4>+92-3352134494</h4>
+                    <h4>+92-3180125794</h4>
+                </div>
+                <div class="col">
+                    <h3>Links <div class="underline"><span></span></div></h3>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="about.html">About us</a></li>
+                        <li><a href="contact.html">Contact us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3>NewsLetter <div class="underline"><span></span></div></h3>
+                    <form>
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" placeholder="Enter Your Email">
+                        <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+                    </form>
+                    <div class="social-icons">
+                        <a class="icon" href="http://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                        <a class="icon" href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a class="icon" href="http://www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                        <a class="icon" href="http://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">&copy; 2023 All Right Reserved | Specta Hub</p>
+        </footer>
+
+        
+        <script>
+        const icon = document.querySelector('.icon')
+        const search = document.querySelector('.search')
+        icon.onclick = function(){
+            search.classList.toggle('active')
+        }
+        </script>  
+        <script src="https://kit.fontawesome.com/3c55e1d6d1.js"></script>    
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </div>
+</body>
+</html>

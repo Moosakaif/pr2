@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style15.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <nav>
+                <div class="left-section">
+                    <img src="specta hub.png" width="120" height="100">
+                </div>
+                <div class="search">
+                    <div class="icon"></div>
+                    <div class="input">
+                        <input type="text" placeholder="Search" id="mysearch">
+                    </div>
+                    <span class="clear" onclick="document.getElementById
+                    ('mysearch').value = ''"></span>
+                </div>
+                <div class="right-section">
+                    <ul class="nav">
+                        <li class="nav-link"><a href="contact.html">Contact us</a></li>
+                        <li class="nav-link"><a href="services.html">Services</a></li>
+                        <li class="nav-link"><a href="about.html">About</a></li>
+                        <li class="nav-link"><a href="account.html">Account</a></li>
+                        <li class="nav-link"><a href="add.html"><span class="icon"><ion-icon name="bag-handle-outline"></ion-icon></span></a></li>
+                    </ul>
+                </div>
+            </nav> 
+        </header>
+        <br>
+        <br>
+        <br> 
+
+
+        <div class="smallcontainer single-produst">
+            <div class="row">
+                <div class="col-2">
+                    <img src="pr2.jpg" width="70%"
+                    id="ProdctImg"> 
+                </div>
+                <div class="col-2">
+                    <p>Product / Specta Hub</p>
+                    <h1>Kid's Sunglasses 136452-c</h1>
+                    <h4>$11.99</h4>
+                    <input type="number" value="1">
+                    
+                    <a href="#" class="btn">Buy Now</a>
+                    <a href="add.html" class="btn">Add to Cart</a>
+                    <h3>Product Details<i class="fa fa-indent"></i></h3>
+                    <br>
+                    <p>Prescription Sunglasses 136452-c is a stylish TR-100 frame suitable for wide range of lenses. Buy this high quality frame with complete confidence at best prices guaranteed & great customer experience.</p> 
+                </div>
+            </div>
+        </div>
+
+
+        <footer>
+            <div class="row">
+                <div class="col">
+                  <img src="specta hub.png" alt="logo" height="120px" width="160px">
+                  <p> Our mission is to provide top-quality products to our customers at reasonable prices, delivered right to their doorstep.</p>
+                </div>
+                <div class="col">
+                    <h3>Offices<div class="underline"><span></span></div></h3>
+                    <p>Aptech Norht-karachi</p>
+                    <p>Main Saleem Center</p>
+                    <p>Near Anda Mor Chorangi</p>
+                    <p class="email-id">sharham098234@gmail.com<br>moosakaif567@gmail.com</p>
+                    <h4>+92-3352134494</h4>
+                    <h4>+92-3180125794</h4>
+                </div>
+                <div class="col">
+                    <h3>Links <div class="underline"><span></span></div></h3>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="about.html">About us</a></li>
+                        <li><a href="contact.html">Contact us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3>NewsLetter <div class="underline"><span></span></div></h3>
+                    <form>
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" placeholder="Enter Your Email">
+                        <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+                    </form>
+                    <div class="social-icons">
+                        <a class="icon" href="http://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                        <a class="icon" href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a class="icon" href="http://www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                        <a class="icon" href="http://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">&copy; 2023 All Right Reserved | Specta Hub</p>
+        </footer>
+
+        
+    <script>
+        const icon = document.querySelector('.icon')
+        const search = document.querySelector('.search')
+        icon.onclick = function(){
+            search.classList.toggle('active')
+        }
+    </script>  
+    <script src="https://kit.fontawesome.com/3c55e1d6d1.js"></script>    
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
